@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/dyslexia/Downloads/E44046092'
+let g:netrw_dirhist_2='/home/dyslexia/Downloads/E44046092/SRC'
+let g:netrw_dirhist_3='/home/dyslexia/Course/cache_hw/hw'
+let g:netrw_dirhist_4='/var/lib/mysql'
+let g:netrw_dirhist_5='/home/dyslexia/Course/cache_hw/Cache'
+let g:netrw_dirhist_6='/home/dyslexia/Dyslexia/DeepBach/DeepBach/datasets'
+let g:netrw_dirhist_7='/home/dyslexia/Dyslexia/music-generation/lstm_generation'
+let g:netrw_dirhist_8='/home/dyslexia/.config'
