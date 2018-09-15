@@ -28,6 +28,16 @@ vmap <TAB> >gv
 vmap <S-TAB> <gv
 
 filetype indent plugin on
+set nocompatible
+filetype off
+" set the runtime path to include Vundle and initialize "
+call plug#begin('~/.vim/plugged')
+" 插件和設定放這裡(設定也可以放外面) "
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+nnoremap <F3> :IndentLinesToggle<CR>
+call plug#end()
+filetype plugin indent on
 
 ":colorscheme molokai"
 
