@@ -23,6 +23,7 @@ nnoremap <F9> :exec "x"<CR>
 :imap jj <Esc>"
 map <C-\> :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
 map <A-]> :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
+map <F4> : set nu rnu!<BAR> set nonu nornu?<CR>
 " tab indent "
 vmap <TAB> >gv
 vmap <S-TAB> <gv
