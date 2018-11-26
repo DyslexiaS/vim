@@ -1,0 +1,5 @@
+"\e[5~": history-search-backward
+"\e[6~": history-search-forward
+
+"\x1b\x5b\x41": history-search-backward
+"\x1b\x5b\x42": history-search-forward
