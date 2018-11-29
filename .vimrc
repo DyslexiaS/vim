@@ -36,6 +36,8 @@ call plug#begin('~/.vim/plugged')
 " 插件和設定放這裡(設定也可以放外面) "
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'w0rp/ale'
+Plug 'Yggdroot/indentline'
 nnoremap <F3> :IndentLinesToggle<CR>
 call plug#end()
 filetype plugin indent on
